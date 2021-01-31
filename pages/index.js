@@ -16,7 +16,7 @@ export default function Index() {
                 Skyscraper Industries - Cutting edge CEA solutions and project consultation.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                Our consultants utilize extensive industry experience designing and implementing complex solutions for controlled evironment agriculture systems. We focus on not only and elastic and fault tolerant systems but cost effective design with a focus on scalability
+                Our consultants utilize extensive industry experience designing and implementing complex solutions for controlled evironment agriculture systems. We focus on not only elastic and fault tolerant systems but cost effective design with a focus on scalability
                 {/* {" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
@@ -48,7 +48,7 @@ export default function Index() {
         </div>
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-          src={require("assets/img/pattern_nextjs.png")}
+          src={require("assets/img/pattern1.jpg")}
           alt="..."
         />
       </section>
@@ -79,7 +79,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-gray-800">
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                  src={require("assets/img/SkyscrapeProjectImage.png")}
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
@@ -95,13 +95,10 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Great for your awesome project
+                    Perfect for your next project
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                    With our consultation clients see extensive savings not only in capital expenditures but also in daily operations and long term scaling efficiency.
                   </p>
                 </blockquote>
               </div>
@@ -116,11 +113,10 @@ export default function Index() {
                         <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        CSS Components
+                        Custom Components
                       </h6>
                       <p className="mb-4 text-gray-600">
-                        Notus NextJS comes with a huge number of Fully Coded CSS
-                        components.
+                       Experience with the complete product design cycle and a deep confidence in our ability to guide or handle complete ownership of IP component creation for your project.
                       </p>
                     </div>
                   </div>
@@ -130,11 +126,10 @@ export default function Index() {
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        JavaScript Components
+                        Sub-system design and selection
                       </h6>
                       <p className="mb-4 text-gray-600">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
+                        Extensive knowledge of the complex interactions in controlled enviroment systems allows us to research, inform, and implement the best options for your system. Whether its Hvac, LED lights, 
                       </p>
                     </div>
                   </div>
@@ -145,10 +140,9 @@ export default function Index() {
                       <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
+                      <h6 className="text-xl mb-1 font-semibold">Monitoring and Analytics</h6>
                       <p className="mb-4 text-gray-600">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
+                        Proven cloud and on premises based solutions for both monitoring and system control using cutting edge technologies and secure communciation protocols.  
                       </p>
                     </div>
                   </div>
@@ -158,11 +152,10 @@ export default function Index() {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Documentation
+                        Procedures and Documentation
                       </h6>
                       <p className="mb-4 text-gray-600">
-                        Built by developers for developers. You will love how
-                        easy is to to work with Notus NextJS.
+                        We not only embrace the creation of solutions and consultation, but also hold a wealth of experience in implementation of operating procedures and digital documentation to ensure a healthy roi and swift adoption.
                       </p>
                     </div>
                   </div>
@@ -179,7 +172,7 @@ export default function Index() {
                 <i className="fas fa-sitemap text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                CSS Components
+                Custom Components
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                 Every element that you need in a product comes built in as a

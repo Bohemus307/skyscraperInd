@@ -175,44 +175,48 @@ export default function Index() {
                 Custom Components
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                Every element that you need in a product comes built in as a
-                component. All components fit perfectly with each other and can
-                have different colours.
+                Understanding the complex challenges surrounding custom component design and sourcing allows us to forsee potential blockers and ensure a short and effective timeline between prototype development and scalable production.
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Buttons
+                  Irrigation
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Inputs
+                  Grow Media
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Labels
+                  Sensors
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
+                  Water Treatment
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
+                  Automated Systems
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Pagination
+                  Robotics
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Progressbars
+                  Conveyance
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Typography
+                  HVAC
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Air Flow
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Ergonomics
                 </span>
               </div>
-              <a
+              {/* <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
                 target="_blank"
                 className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
               >
                 View All{" "}
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-              </a>
+              </a> */}
             </div>
 
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
@@ -356,16 +360,13 @@ export default function Index() {
                 <i className="fas fa-drafting-compass text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Javascript Components
+              Sub-system design and selection
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                In order to create a great User Experience some components
-                require JavaScript. In this way you can manipulate the elements
-                on the page and give more options to your users.
+                The importance of a loosely coupled yet communicative series of sub systems is crucial to minimizing labor and maintenance costs, as well as leveraging robust data pools. Our experts have detailed experience with a multitude of system options making certain you get the best fit for your overall system requirements.
               </p>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                We created a set of Components that are dynamic and come to help
-                you.
+                Whether it is a focus on water positive HVAC or extensive monitoring of your sensor arrays. Our cutting edge solutions will allow you to construct or retrofit your system as necessary.
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">

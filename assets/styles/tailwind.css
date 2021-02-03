@@ -2138,6 +2138,9 @@ video {
   max-height: 860px;
 }
 
+.max-h-360-px {
+  max-height: 170px;
+}
 .max-w-sm {
   max-width: 24rem;
 }
@@ -2172,6 +2175,10 @@ video {
 
 .max-w-580-px {
   max-width: 580px;
+}
+
+.max-w-480-px {
+  max-width: 480px;
 }
 
 .min-h-screen {
@@ -2675,6 +2682,9 @@ video {
   left: 195px;
 }
 
+.left-100-px {
+  left: 100px;
+}
 .top-210-px {
   top: 210px;
 }
@@ -3133,6 +3143,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-75 {
+  width: 75%;
 }
 
 .z-2 {

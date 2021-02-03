@@ -129,7 +129,7 @@ export default function Index() {
                         Sub-system design and selection
                       </h6>
                       <p className="mb-4 text-gray-600">
-                        Extensive knowledge of the complex interactions in controlled enviroment systems allows us to research, inform, and implement the best options for your system. Whether its Hvac, LED lights, 
+                        Extensive knowledge of the complex interactions in controlled enviroment systems allows us to research, inform, and implement the best options for your system. Whether its Hvac, LED lights, Water treatment, Filtration, Enviromental monitoring, Or one of many other crucial components our knowledge and experience will give you the guidance necessary to optimize your sub-system.
                       </p>
                     </div>
                   </div>
@@ -221,36 +221,36 @@ export default function Index() {
 
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
-                <img
+                {/* <img
                   alt="..."
                   src={require("assets/img/component-btn.png")}
                   className="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
+                /> */}
+                <img
+                  alt="..."
+                  src={require("assets/img/skyscrape2.jpeg")}
+                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-60-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-profile-card.png")}
-                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
+                  src={require("assets/img/custom4.jpg")}
+                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-100-px -top-150-px z-2"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-info-card.png")}
-                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
+                  src={require("assets/img/ledcustom.jpg")}
+                  className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-40-px top-25-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-info-2.png")}
-                  className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
+                  src={require("assets/img/custom5.jpg")}
+                  className="w-75 align-middle rounded absolute shadow-lg max-h-360-px max-w-480-px -left-20-px top-210-px"
                 />
-                <img
-                  alt="..."
-                  src={require("assets/img/component-menu.png")}
-                  className="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
-                />
-                <img
+                {/* <img
                   alt="..."
                   src={require("assets/img/component-btn-pink.png")}
                   className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -366,7 +366,7 @@ export default function Index() {
                 The importance of a loosely coupled yet communicative series of sub systems is crucial to minimizing labor and maintenance costs, as well as leveraging robust data pools. Our experts have detailed experience with a multitude of system options making certain you get the best fit for your overall system requirements.
               </p>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                Whether it is a focus on water positive HVAC or extensive monitoring of your sensor arrays. Our cutting edge solutions will allow you to construct or retrofit your system as necessary.
+                Whether it is a focus on water positive HVAC or extensive monitoring with sensor arrays. Our cutting edge solutions will allow you to design or retrofit your system as necessary.
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">

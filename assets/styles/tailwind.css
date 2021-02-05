@@ -1717,6 +1717,9 @@ video {
 .flex-shrink {
   flex-shrink: 1;
 }
+.flex-align-center {
+  align-items: center;
+}
 
 .float-right {
   float: right;
@@ -2187,6 +2190,10 @@ video {
 
 .min-h-screen-75 {
   min-height: 75vh;
+}
+
+.min-250 {
+  min-height: 250px;
 }
 
 .min-w-0 {
@@ -2674,6 +2681,10 @@ video {
   top: 95px;
 }
 
+.top-70-px {
+  top: 70px;
+}
+
 .left-145-px {
   left: 145px;
 }
@@ -2685,12 +2696,17 @@ video {
 .left-100-px {
   left: 100px;
 }
+
 .top-210-px {
   top: 210px;
 }
 
 .left-260-px {
   left: 260px;
+}
+
+.left-290-px {
+  left: 290px;
 }
 
 .resize-none {

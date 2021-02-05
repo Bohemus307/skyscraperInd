@@ -142,7 +142,7 @@ export default function Index() {
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">Monitoring and Analytics</h6>
                       <p className="mb-4 text-gray-600">
-                        Proven cloud and on premises based solutions for both monitoring and system control using cutting edge technologies and secure communciation protocols.  
+                        Proven cloud-based and on premises solutions for both monitoring and systems control using cutting edge technologies and secure communciation protocols.  
                       </p>
                     </div>
                   </div>
@@ -255,14 +255,11 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center pt-32">
+          <div className="flex flex-wrap flex-align-center items-center pt-32">
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
+                 
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
                       <img
                         alt="..."
@@ -273,11 +270,6 @@ export default function Index() {
                         HVAC
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-blue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -288,69 +280,48 @@ export default function Index() {
                         Water Treatment
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-gray-800 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
                         className="w-full shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src={require("assets/img/filter.jpg")}
+                        src={require("assets/img/fanshaefer.jpeg")}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         AirFlow
                       </p>
                     </div>
-                  </a>
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
                       <img
                         alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                        className="w-full shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src={require("assets/img/sensor5.jpeg")}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Sensor Systems
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                        className="w-full shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src={require("assets/img/coolbar2.jpeg")}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Lighting
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                        className="w-full shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src={require("assets/img/prop3.jpg")}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Propagation
                       </p>
                     </div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -368,18 +339,18 @@ export default function Index() {
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                 Whether it is a focus on water positive HVAC or extensive monitoring with sensor arrays. Our cutting edge solutions will allow you to design or retrofit your system as necessary.
               </p>
-              <div className="block pb-6">
+              {/* <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Alerts
+                  Filtration
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Dropdowns
+                  Nutrient Dosing
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
+                  Ozone
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Modals
+                  
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Navbars
@@ -393,15 +364,50 @@ export default function Index() {
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Tooltips
                 </span>
-              </div>
+              </div> */}
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
                 target="_blank"
                 className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
               >
-                View all{" "}
+                Contact for more information{" "}
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
               </a>
+            </div>
+          </div>
+        </div>
+        
+        <div className="container mx-auto overflow-hidden pb-20">
+          <div className="flex flex-wrap items-center">
+            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+              <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                <i className="fas fa-newspaper"></i>
+              </div>
+              <h3 className="text-3xl mb-2 font-semibold leading-normal">
+              Monitoring and Analytics
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+                As certified cloud solution architects were prepared to assist you in building and deploying an elastic and fault tolerant system allowing for robust monitoring and all the data collection and manipultaion you can imagine. We have extensive experience across multiple cloud providers and are always willing to deep dive into new technologies to assure the most optimized and cost effective solution.
+              </p>
+            </div>
+            <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
+              <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
+                <img
+                  alt="..."
+                  src={require("assets/img/dataviz.jpg")}
+                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-290-px top-70-px"
+                />
+                <img
+                  alt="..."
+                  src={require("assets/img/cloud1.jpeg")}
+                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-100-px -top-150-px z-2"
+                />
+                <img
+                  alt="..."
+                  src={require("assets/img/analytics4.jpg")}
+                  className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-95-px"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -414,13 +420,10 @@ export default function Index() {
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
-                  Complex Documentation
+                Procedures and Documentation
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                  The process of developing operations for CEA systems involves complex operating tasks that require clear and detailed documentation to set your ops team up for success. Our consultants has developed systems and documentation for some of the largest and smallest farms in the industry allowing us to conform to your needs while leveraging proven tools and resources.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -432,7 +435,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-gray-600">
-                          Built by Developers for Developers
+                          Built by Farmers for Farmers
                         </h4>
                       </div>
                     </div>
@@ -446,7 +449,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-gray-600">
-                          Carefully crafted code for Components
+                          Proven history of Success
                         </h4>
                       </div>
                     </div>
@@ -460,7 +463,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-gray-600">
-                          Dynamic Javascript Components
+                          Dynamic Consultants with solution focused approach
                         </h4>
                       </div>
                     </div>
@@ -477,7 +480,7 @@ export default function Index() {
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={require("assets/img/documentation.png")}
+                src={require("assets/img/process2.jpg")}
               />
             </div>
           </div>

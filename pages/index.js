@@ -266,11 +266,11 @@ export default function Index() {
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
                       <img
                         alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                        className="w-full shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src={require("assets/img/hvac.jpg")}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Svelte
+                        HVAC
                       </p>
                     </div>
                   </a>
@@ -281,11 +281,11 @@ export default function Index() {
                     <div className="bg-blue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+                        className="w-full shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src={require("assets/img/ozone3.jpeg")}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        ReactJS
+                        Water Treatment
                       </p>
                     </div>
                   </a>
@@ -296,11 +296,11 @@ export default function Index() {
                     <div className="bg-gray-800 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
+                        className="w-full shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src={require("assets/img/filter.jpg")}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        NextJS
+                        AirFlow
                       </p>
                     </div>
                   </a>
@@ -317,7 +317,7 @@ export default function Index() {
                         src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        JavaScript
+                        Sensor Systems
                       </p>
                     </div>
                   </a>
@@ -332,7 +332,7 @@ export default function Index() {
                         src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Angular
+                        Lighting
                       </p>
                     </div>
                   </a>
@@ -347,7 +347,7 @@ export default function Index() {
                         src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Vue.js
+                        Propagation
                       </p>
                     </div>
                   </a>

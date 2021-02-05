@@ -569,7 +569,7 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 /**
@@ -1261,7 +1261,7 @@ video {
 }
 
 .bg-full {
-  background-size: 100$;
+  background-size: 100;
 }
 
 .border-collapse {

@@ -28,7 +28,7 @@ Router.events.on("routeChangeError", () => {
 
 export default class MyApp extends App {
   componentDidMount() {
-    let comment = document.createComment(`Hello World from SkyScraper`);
+    let comment = document.createComment(`Hello from SkyScraper`);
     document.insertBefore(comment, document.documentElement);
   }
   static async getInitialProps({ Component, router, ctx }) {

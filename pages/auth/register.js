@@ -25,7 +25,7 @@ export default function Register() {
                     <img
                       alt="..."
                       className="w-5 mr-1"
-                      src={require("assets/img/github.svg")}
+                      src={require("assets/img/cloud1.jpeg")}
                     />
                     Github
                   </button>

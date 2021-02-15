@@ -3,20 +3,23 @@ import Link from "next/link";
 
 // components
 
-import Navbar from "components/Navbars/AuthNavbar.js";
+// import Navbar from "components/Navbars/AuthNavbar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import background from "../assets/img/verticalwalls.jpg";
 
 export default function Landing() {
   return (
     <>
-      <Navbar transparent />
+      {/* <Navbar transparent /> */}
+      <IndexNavbar fixed />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+                `url(${background})`,
             }}
           >
             <span
@@ -29,12 +32,10 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                    Your CEA project starts with us.
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
-                    This is a simple example of a Landing Page you can build
-                    using Notus NextJS. It features multiple CSS components
-                    based on the Tailwind CSS design system.
+                    Building the farms of the future is no simple task, and over the process of building dozens of farms across many growing platforms our team has the experience needed to not only save you on capex costs but also on long term vialbility and effecient project timelines through experienced project management. We have a passion for a LEAN approach to projects and like to use the Build - Measure - Learn ideals to get things moving quickly and assure the highest quality product through iteration and focused learnings. 
                   </p>
                 </div>
               </div>

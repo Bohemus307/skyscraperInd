@@ -471,7 +471,7 @@ export default function Index() {
                 Do you need consultation with an upcoming project?
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mt-4 mb-4">
-                Cause if you do, just reach out now. Hit the buttons below to
+                Cause if you do, just reach out now. Hit the button below to
                 navigate to our contact form for your next project. Build a
                 new CEA system or give an old project a new design!
               </p>
